@@ -8,4 +8,4 @@ expose 80
 copy valuefile /opt/text/
 entrypoint ['/bin/sh']
 cmd ['/opt/tomcat/myscript.sh']
-i am goms , making few changes in my file
+i am goms , making few changes in my file and edit 
