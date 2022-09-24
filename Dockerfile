@@ -7,4 +7,4 @@ run apt install net-tools -y
 expose 80
 copy valuefile /opt/text/
 entrypoint ['/bin/sh']
-
+cmd ['/opt/tomcat/myscript.sh']
