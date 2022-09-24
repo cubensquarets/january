@@ -6,4 +6,5 @@ run apt install nano -y
 run apt install net-tools -y
 expose 80
 copy valuefile /opt/text/
+entrypoint ['/bin/sh']
 
