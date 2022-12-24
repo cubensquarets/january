@@ -9,3 +9,7 @@ asd
 f
 test yaml
 i am making updates on the file
+kind: Pod
+metadata:
+  name: test
+  
