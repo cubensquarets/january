@@ -7,4 +7,8 @@
     apt:
       name: apache2
       state: present
+   - name: enable
+     apt:
+       name: apache2
+       enabled: yes
 
