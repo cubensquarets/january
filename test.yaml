@@ -7,8 +7,8 @@
     apt:
       name: apache2
       state: present
-   - name: enable
-     apt:
+   - name: service 
+     service:
        name: apache2
-       enabled: yes
+       state: restarted
 
