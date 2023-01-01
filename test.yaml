@@ -1,15 +1,10 @@
-welcome to cubensquare
-sdfasdfasdfasd - i am balaji from chennai
-fadf
-asf
-asdf
-asdf
-asdf
-asd
-f
-test yaml
-i am making updates on the file
-kind: Pod
-metadata:
-  name: test
+---
+- name: test playbook
+  hosts: all
+  become: true
+  tasks:
+  - name: test
+    apt:
+      name: apache2
+      state: present
 
