@@ -7,3 +7,7 @@
        src: /home/ansible/Dockerfile
        dest: /home/ansible
        mode: 0644
+ - name: create user
+   user:
+     name: goms
+     state: present
